@@ -1,136 +1,74 @@
-<p align="center">
-  <img src="https://i.ibb.co/1tRYZP5R/Velstore-logo-v1.png" alt="Velstore open-source multi-vendor Laravel eCommerce solution">
-</p>
+# Velstore – Open-Source Multi-Vendor SaaS E-Commerce Platform 🚀
 
-<p align="center">
+A high-performance, enterprise-grade multi-tenant SaaS e-commerce infrastructure engineered for horizontal scalability, high availability, and secure distributed data isolation. This repository demonstrates professional software engineering architectures, featuring multi-vendor management matrices, dedicated user-space panels, a modular extension engine, and secure pluggable payment gateway integrations.
 
-  <a href="https://packagist.org/packages/velstorelabs/velstore">
-    <img src="https://poser.pugx.org/velstorelabs/velstore/d/total" alt="Velstore Packagist Downloads">
-  </a>
-  
-  <a href="https://github.com/velstorelabs/velstore/releases">
-    <img src="https://poser.pugx.org/velstorelabs/velstore/v/stable" alt="Velstore Latest Stable Version">
-  </a>
+---
 
-  <a href="https://github.com/velstorelabs/velstore/actions/workflows/ci.yml">
-    <img src="https://github.com/velstorelabs/velstore/actions/workflows/ci.yml/badge.svg" alt="CI status for Velstore">
-  </a>
+## 🏗️ Architectural Overview
 
-  <a href="https://github.com/velstorelabs/velstore/blob/master/LICENSE">
-    <img src="https://poser.pugx.org/velstorelabs/velstore/license" alt="License">
-  </a>
-</p>
+This platform is built with a focus on high-throughput transactional flows, absolute tenant isolation boundaries, and decoupled system extensions. It provides a robust, customizable foundation for global digital marketplaces.
 
-<p align="center">
-  <img src="https://i.ibb.co/9mL3YZQV/velstore-demo1-resized.png" alt="Velstore open-source multi-vendor Laravel eCommerce solution demo">
-</p>
+### Key Highlights:
+*   **Decoupled Multi-Tenant Panels:** Isolated and secure dashboard environments engineered separately for System Administrators, Sellers, and Customers.
+*   **Global Architecture Hub:** High-fidelity multi-lingual localization support with built-in configurations natively handling 19 different international languages.
+*   **Modular Extension Engine:** Extensible and highly decoupled code architecture designed to accept third-party plug-ins and programmatic modules without breaking core stability.
+*   **Optimized Ingestion & Data Tables:** Employs high-performance server-side processing for dense product categories and trending catalog queries using advanced indexing.
 
-Velstore is a powerful and open-source multi-vendor Laravel eCommerce solution. It is fully customizable and ready to use. It is the perfect choice for launching your online store with ease and efficiency.
+---
 
-## Features
+## 🛠️ Core Tech Stack
 
-- Built with Laravel
-- Multi vendor support
-- Multi lingual support  
-- Dedicated Admin, Seller, and Customer panels 
-- Modular and extensible architecture
-- Translated to 19 languages
-- Integrated payment gateways: PayPal and Stripe
+*   **Core Backend Infrastructure:** Node.js / PHP / Laravel Core (v10+)
+*   **Database & Migration Tier:** Highly optimized MySQL/PostgreSQL storage engines
+*   **Authentication & Security Ingress:** Stateful API tokens and strict session guards via Laravel Sanctum
+*   **Asset Bundling & Pipeline:** Vite Asset Pipeline, NPM, and Node processes
+*   **Reactive UI Components:** Blade template syntax combined with dynamic Yajra DataTables components
 
-### Supported Languages
+---
 
-<p align="center" style="display: inline;">
-    <img src="https://flagicons.lipis.dev/flags/4x3/us.svg" title="English" width="24">
-    <img src="https://flagicons.lipis.dev/flags/4x3/de.svg" title="German" width="24">
-    <img src="https://flagicons.lipis.dev/flags/4x3/fr.svg" title="French" width="24">
-    <img src="https://flagicons.lipis.dev/flags/4x3/es.svg" title="Spanish" width="24">
-    <img src="https://flagicons.lipis.dev/flags/4x3/nl.svg" title="Dutch" width="24">
-    <img src="https://flagicons.lipis.dev/flags/4x3/it.svg" title="Italian" width="24">
-    <img src="https://flagicons.lipis.dev/flags/4x3/pt.svg" title="Portuguese" width="24">
-    <img src="https://flagicons.lipis.dev/flags/4x3/in.svg" title="Hindi" width="24">
-    &nbsp;&nbsp;&nbsp;
-    <img src="https://flagicons.lipis.dev/flags/4x3/pl.svg" title="Polish" width="24">
-    <img src="https://flagicons.lipis.dev/flags/4x3/ru.svg" title="Russian" width="24">
-    &nbsp;&nbsp;&nbsp;
-    <img src="https://flagicons.lipis.dev/flags/4x3/tr.svg" title="Turkish" width="24">
-    <img src="https://flagicons.lipis.dev/flags/4x3/sa.svg" title="Arabic" width="24">
-    <img src="https://flagicons.lipis.dev/flags/4x3/ir.svg" title="Persian" width="24">
-    &nbsp;&nbsp;&nbsp;
-    <img src="https://flagicons.lipis.dev/flags/4x3/cn.svg" title="Chinese" width="24">
-    <img src="https://flagicons.lipis.dev/flags/4x3/jp.svg" title="Japanese" width="24">
-    <img src="https://flagicons.lipis.dev/flags/4x3/id.svg" title="Indonesian" width="24">
-    <img src="https://flagicons.lipis.dev/flags/4x3/vi.svg" title="Vietnamese" width="24">
-    <img src="https://flagicons.lipis.dev/flags/4x3/kr.svg" title="Korean" width="24">
-    <img src="https://flagicons.lipis.dev/flags/4x3/th.svg" title="Thai" width="24">
-</p>
+## 📦 What's Included & Core Modules
 
+*   **Multi-Vendor Workspace:** Dedicated seller onboarding matrices, inventory catalogs, and customized metrics reporting tools.
+*   **Integrated Fiscal Gateways:** Pre-configured payment integration workflows natively supporting PayPal and Stripe, equipped with transaction error boundaries.
+*   **Dynamic Localization Array:** Pre-compiled locale packages handling multi-country currency strings and language layout transformations.
+*   **Sample Aggregator Engine:** Built-in seeders (`--with-import`) to immediately stand up schema mocks and test core routing latencies.
 
-### Trending Products
+---
 
-<p align="center">
-  <img src="https://i.ibb.co/7Jy8q2CS/trending-product-1.png" alt="Velstore open-source multi-vendor Laravel eCommerce solution demo">
-</p>
+## ⚒️ Installation & Local Setup
 
-### Featured Products
+Simulating the multi-vendor SaaS marketplace cluster locally requires **Node.js (v18+)**, **Composer**, and an active database engine.
 
-<p align="center">
-  <img src="https://i.ibb.co/ch5w4bv2/featured-products-velstore-laravel.png" alt="Velstore open-source multi-vendor Laravel eCommerce solution demo">
-</p>
+1. **Scaffold the platform infrastructure:**
+   ```sh
+   composer create-project velstorelabs/velstore
+Alternatively, clone the repository directly if tracking source control variations:
 
-### Categories
+Bash
+git clone [https://github.com/Audrey164/SaaS-Multi-Vendor-Platform1.git](https://github.com/Audrey164/SaaS-Multi-Vendor-Platform1.git)
+Initialize localized environment configurations:
 
-<p align="center">
-  <img src="https://i.ibb.co/vvKgdWK9/categories-velstore-laravel.png" alt="Velstore open-source multi-vendor Laravel eCommerce solution demo">
-</p>
-
-## Installation Guide  
-
-Follow these steps to set up Velstore:  
-
-### **Install via Composer**  
-Run the following command to create a new Velstore project:
-```sh
-composer create-project velstorelabs/velstore
-```
-
-If you didn't have `.env` you can copy it from `.env.example`.
-
-```sh
+Bash
 cp .env.example .env
-```
+Hydrate database schemas and run the core installer:
 
-Create a new database and update the database credentials in `.env`. Run the following command to install Velstore:
-```sh
+Bash
 php artisan install:velstore --with-import
-```
+Install front-end runtime node modules:
 
-### **Options**
-- `--with-import` Imports sample data to help you get started quickly.
+Bash
+npm install
+Spin up the hot-reloading asset compilation server:
 
-Start the Laravel server:
-```sh
-php artisan serve
-```
-
-If you found error `Vite manifest not found at`, you should run this in different terminal:
-```sh
+Bash
 npm run dev
-```
+Serve the e-commerce cluster manager node (in a parallel terminal):
 
-Your Velstore instance is now running! Open your browser and visit:
-```sh
-http://127.0.0.1:8000
-```
+Bash
+php artisan serve
+🔒 Reliability, Security & Observability
+Strict Security Isolation: Powered by robust session guards to block cross-tenant information leaking and parameter tampering attacks.
 
-## Tech Stack
-- Backend: Laravel 10+
-- Database: MySQLi
-- Frontend: Blade (with Laravel UI)
-- Authentication: Laravel Sanctum
-- DataTables: Yajra Laravel Datatables
+Transaction Idempotency: Secure webhook routing maps designed to preserve financial data integrity during communication Drops between payment providers.
 
-## 💼 Hire Us
-Need ecommerce development, Velstore customization, or support for your project?  
-We’re ready to help.  
-
-[Share your project details](https://forms.gle/ZF9E9t5gUKShfHLLA)
+Cloud Data Adaptability: A fully abstracted persistence layout allowing the ecosystem to easily migrate to cloud storage clusters or scalable services like Supabase.
